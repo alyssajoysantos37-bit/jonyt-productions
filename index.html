@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Jony T Productions | Videography & Photography</title>
+    <meta name="description" content="Jony T Productions offers high-end videography and photography services across Virginia Beach. Specializing in weddings, events, and portraits. Book a free consultation today!">
+    
+    <meta property="og:title" content="Jony T Productions | Capturing Moments to Memories">
+    <meta property="og:description" content="High-end videography and photography across Virginia Beach. We capture your unscripted moments so you can relive them forever.">
+    <meta property="og:image" content="images/about.jpg">
+    <meta property="og:type" content="website">
+    
+    <link rel="icon" href="images/logo.png" type="image/png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:ital,wght@0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo-link" aria-label="Go to homepage">
+            <img src="images/logo.png" alt="Jony T Productions Logo" class="logo-img">
+        </a>
+    
+        <div class="hamburger" id="hamburger" aria-label="Toggle navigation menu" role="button" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+
+        <nav id="nav-menu">
+            <a href="#hero" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="portfolio.html#nav">Portfolio</a> 
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="hero" class="bg-main">
+        <div class="hero-split">
+            
+            <div class="hero-left">
+                <div class="slider-wrapper">
+                    <button class="nav-arrow prev-arrow" onclick="changeSlide(-1)" aria-label="Previous slide">&#10094;</button>
+                    
+                    <div class="media-slider-container">
+                        <div class="slide active" data-duration="4000">
+                            <img src="images/image1.jpg" alt="Stunning wedding photography couple standing together">
+                        </div>
+                        <div class="slide" data-duration="4000">
+                            <img src="images/image2.jpg" alt="Candid portrait photography outdoors">
+                        </div>
+                        <div class="slide" data-duration="4000">
+                            <img src="images/image3.jpg" alt="Vibrant event celebration photography">
+                        </div>
+
+                        <div class="slide" data-duration="20000">
+                            <iframe src="https://www.youtube.com/embed/9e9mrq0Ccy0?autoplay=1&mute=1&controls=0&loop=1&playlist=9e9mrq0Ccy0&enablejsapi=1" title="Breanna Highlight Video" class="media-fill" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                        
+                       <div class="slide" data-duration="20000">
+                            <iframe src="https://www.youtube.com/embed/sVxsKVHKzc0?autoplay=1&mute=1&controls=0&loop=1&playlist=sVxsKVHKzc0&enablejsapi=1" title="Miss Universe Philippine Virginia 2024" class="media-fill" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+
+                        <div class="slide" data-duration="20000">
+                            <iframe src="https://www.youtube.com/embed/kp747JMa2Po?autoplay=1&mute=1&controls=0&loop=1&playlist=kp747JMa2Po&enablejsapi=1" title="Yusuf and Aminah Wedding" class="media-fill" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                        <div class="slide" data-duration="20000">
+                            <iframe src="https://www.youtube.com/embed/670TjUXTzms?autoplay=1&mute=1&controls=0&loop=1&playlist=670TjUXTzms&enablejsapi=1" title="AGI Christmas Party 2019" class="media-fill" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <button class="nav-arrow next-arrow" onclick="changeSlide(1)" aria-label="Next slide">&#10095;</button>
+                </div>
+
+                <div class="slider-dots">
+                    <span class="dot active" onclick="goToSlide(0)" aria-label="Go to slide 1"></span>
+                    <span class="dot" onclick="goToSlide(1)" aria-label="Go to slide 2"></span>
+                    <span class="dot" onclick="goToSlide(2)" aria-label="Go to slide 3"></span>
+                    <span class="dot" onclick="goToSlide(3)" aria-label="Go to slide 4"></span>
+                    <span class="dot" onclick="goToSlide(4)" aria-label="Go to slide 5"></span>
+                    <span class="dot" onclick="goToSlide(5)" aria-label="Go to slide 6"></span>
+                    <span class="dot" onclick="goToSlide(6)" aria-label="Go to slide 7"></span> 
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <h1 class="hero-title">Capturing Your <br class="laptop-break">Moments to Memories</h1>
+                <p class="hero-description">Welcome to Jony T Productions, the proud home of Jony Films and Jony Photos. With more than 10 years of industry experience, I specialize in high-end videography and photography across Virginia Beach and beyond. From the first wedding vow to the final dance, I capture life's unscripted moments so you can relive them forever.</p>
+                <a href="#contact" class="btn btn-cta">BOOK A FREE CONSULTATION &rarr;</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about" class="bg-alt split-section">
+        <div class="split-left">
+            <img src="images/about.jpg" alt="Portrait of Jony T, Photographer and Videographer" class="about-portrait">
+        </div>
+        <div class="split-right flex-column">
+            <span class="section-label">ABOUT</span>
+            <h2>Your Story, My Camera</h2>
+            <p>Hey, I'm Jony, a Filipino photographer and videographer based in Virginia Beach, VA, United States. Over the last decade, my camera has been my favorite tool for witnessing and preserving incredible stories. With more than 10 years of experience in the industry, I specialize in capturing life’s most genuine, unscripted moments—whether it's the raw emotion of your wedding day, the high energy of a massive celebration, or a deeply personal portrait session. I am also available for hire as a reliable second shooter, ready to seamlessly support primary photographers and videographers to ensure every angle of an event is captured perfectly.</p>
+            
+            <p class="location-details">📍 Virginia Beach, VA, United States.</p>
+            
+            <div class="about-socials">
+                <a href="https://www.facebook.com/profile.php?id=100077981972971" target="_blank" aria-label="Visit Facebook Profile" class="social-icon fb-icon">
+                    <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                </a>
+                <a href="https://www.youtube.com/@Maccoy1028" target="_blank" aria-label="Visit YouTube Channel" class="social-icon yt-icon">
+                    <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                </a>
+            </div>
+
+            <a href="#contact" class="btn btn-outline">LET'S WORK TOGETHER &rarr;</a>
+        </div>
+    </section>
+
+    <section id="services" class="bg-main">
+        <div class="services-container">
+            <span class="section-label">SERVICES</span>
+            
+            <div class="services-block" id="photography-block" style="scroll-margin-top: 110px;">
+                <div class="services-header">
+                    <h2>JONY PHOTOS:<br class="mobile-break"> PHOTOGRAPHY SERVICES</h2>
+                    <a href="portfolio.html#photo" class="see-more">See More &rarr;</a>
+                </div>
+                
+                <div class="category-pills photo-pills">
+                    <button class="pill active" data-target="photo-weddings" aria-label="Show Weddings and Engagements">Weddings & Engagements</button>
+                    <button class="pill" data-target="photo-events" aria-label="Show Events and Celebrations">Events & Celebrations</button>
+                    <button class="pill" data-target="photo-portraits" aria-label="Show Portraits and Pictorials">Portraits & Pictorials</button>
+                </div>
+
+                <div id="photo-weddings" class="split-section tab-content photo-tab active">
+                    <div class="split-left">
+                        <div class="slider-wrapper service-slider-wrap">
+                            <button class="nav-arrow prev-arrow" onclick="changeServiceSlide(-1)" aria-label="Previous slide">&#10094;</button>
+                            <div class="services-slider">
+                                <div class="service-slide active"><img src="images/weddings/image1.jpg" alt="Beautiful bride and groom at their wedding"></div>
+                                <div class="service-slide"><img src="images/weddings/image2.jpg" alt="Wedding ceremony setting details"></div>
+                                <div class="service-slide"><img src="images/weddings/image3.jpg" alt="Couple holding hands during engagement"></div>
+                                <div class="service-slide"><img src="images/weddings/image4.jpg" alt="Groom smiling affectionately at his bride"></div>
+                                <div class="service-slide"><img src="images/weddings/image5.jpg" alt="Romantic outdoor wedding portrait"></div>
+                                <div class="service-slide"><img src="images/weddings/image6.jpg" alt="Wedding rings and bridal accessories"></div>
+                            </div>
+                            <button class="nav-arrow next-arrow" onclick="changeServiceSlide(1)" aria-label="Next slide">&#10095;</button>
+                        </div>
+                        <div class="slider-dots">
+                            <span class="dot active" onclick="goToServiceSlide(0)" aria-label="Go to slide 1"></span>
+                            <span class="dot" onclick="goToServiceSlide(1)" aria-label="Go to slide 2"></span>
+                            <span class="dot" onclick="goToServiceSlide(2)" aria-label="Go to slide 3"></span>
+                            <span class="dot" onclick="goToServiceSlide(3)" aria-label="Go to slide 4"></span>
+                            <span class="dot" onclick="goToServiceSlide(4)" aria-label="Go to slide 5"></span>
+                            <span class="dot" onclick="goToServiceSlide(5)" aria-label="Go to slide 6"></span>
+                        </div>
+                    </div>
+                    <div class="split-right flex-column">
+                        <p class="details-text">From intimate engagement sessions to grand wedding celebrations, I am dedicated to capturing the genuine love and raw emotion of your story. Expect stunning, timeless photographs that preserve your most precious memories forever.</p>
+                        <p class="inline-cta">Like what you see? You can explore more in my gallery, just <a href="portfolio.html#photo" class="text-link">click me</a>.</p>
+                        <a href="#contact" class="btn btn-cta mt-auto">CHECK MY AVAILABILITY &rarr;</a>
+                    </div>
+                </div>
+
+                <div id="photo-events" class="split-section tab-content photo-tab">
+                    <div class="split-left">
+                        <div class="slider-wrapper service-slider-wrap">
+                            <button class="nav-arrow prev-arrow" onclick="changeServiceSlide(-1)" aria-label="Previous slide">&#10094;</button>
+                            <div class="services-slider">
+                                <div class="service-slide active"><img src="images/celebrations/image1.jpg" alt="Crowd celebrating at a party event"></div>
+                                <div class="service-slide"><img src="images/celebrations/image2.jpg" alt="Candids of friends laughing together"></div>
+                                <div class="service-slide"><img src="images/celebrations/image3.jpg" alt="Corporate event gathering and networking"></div>
+                                <div class="service-slide"><img src="images/celebrations/image4.jpg" alt="Decorated event venue setup"></div>
+                                <div class="service-slide"><img src="images/celebrations/image5.jpg" alt="Live music performance at an event"></div>
+                                <div class="service-slide"><img src="images/celebrations/image6.jpg" alt="Guest toasting at a celebration"></div>
+                            </div>
+                            <button class="nav-arrow next-arrow" onclick="changeServiceSlide(1)" aria-label="Next slide">&#10095;</button>
+                        </div>
+                        <div class="slider-dots">
+                            <span class="dot active" onclick="goToServiceSlide(0)" aria-label="Go to slide 1"></span>
+                            <span class="dot" onclick="goToServiceSlide(1)" aria-label="Go to slide 2"></span>
+                            <span class="dot" onclick="goToServiceSlide(2)" aria-label="Go to slide 3"></span>
+                            <span class="dot" onclick="goToServiceSlide(3)" aria-label="Go to slide 4"></span>
+                            <span class="dot" onclick="goToServiceSlide(4)" aria-label="Go to slide 5"></span>
+                            <span class="dot" onclick="goToServiceSlide(5)" aria-label="Go to slide 6"></span>
+                        </div>
+                    </div>
+                    <div class="split-right flex-column">
+                        <p class="details-text">Whether it’s a high-profile corporate gathering, a sweet 16, a grand anniversary, or an intense local sports game, I provide professional, unobtrusive event photography. I blend into the background to document candid laughs, important speeches, and fast-paced athletic moments without ever interrupting the natural flow of the action.</p>
+                        <p class="inline-cta">Like what you see? You can explore more in my gallery, just <a href="portfolio.html#photo" class="text-link">click me</a>.</p>
+                        <a href="#contact" class="btn btn-cta mt-auto">CHECK MY AVAILABILITY &rarr;</a>
+                    </div>
+                </div>
+
+                <div id="photo-portraits" class="split-section tab-content photo-tab">
+                    <div class="split-left">
+                        <div class="slider-wrapper service-slider-wrap">
+                            <button class="nav-arrow prev-arrow" onclick="changeServiceSlide(-1)" aria-label="Previous slide">&#10094;</button>
+                            <div class="services-slider">
+                                <div class="service-slide active"><img src="images/pictorials/image1.jpg" alt="Professional studio portrait photography"></div>
+                                <div class="service-slide"><img src="images/pictorials/image2.jpg" alt="Outdoor lifestyle portrait session"></div>
+                                <div class="service-slide"><img src="images/pictorials/image3.jpg" alt="Creative fashion photography portrait"></div>
+                                <div class="service-slide"><img src="images/pictorials/image4.jpg" alt="Family portrait outdoors"></div>
+                                <div class="service-slide"><img src="images/pictorials/image5.jpg" alt="Graduation portrait milestone"></div>
+                                <div class="service-slide"><img src="images/pictorials/image6.jpg" alt="Professional branding headshot"></div>
+                            </div>
+                            <button class="nav-arrow next-arrow" onclick="changeServiceSlide(1)" aria-label="Next slide">&#10095;</button>
+                        </div>
+                        <div class="slider-dots">
+                            <span class="dot active" onclick="goToServiceSlide(0)" aria-label="Go to slide 1"></span>
+                            <span class="dot" onclick="goToServiceSlide(1)" aria-label="Go to slide 2"></span>
+                            <span class="dot" onclick="goToServiceSlide(2)" aria-label="Go to slide 3"></span>
+                            <span class="dot" onclick="goToServiceSlide(3)" aria-label="Go to slide 4"></span>
+                            <span class="dot" onclick="goToServiceSlide(4)" aria-label="Go to slide 5"></span>
+                            <span class="dot" onclick="goToServiceSlide(5)" aria-label="Go to slide 6"></span>
+                        </div>
+                    </div>
+                    <div class="split-right flex-column">
+                        <p class="details-text">Authentic, high-quality portraits tailored exactly to you. From professional branding to personal milestones, I combine expert lighting with a relaxed atmosphere to capture your genuine personality in striking, timeless images.</p>
+                        <p class="inline-cta">Like what you see? You can explore more in my gallery, just <a href="portfolio.html#photo" class="text-link">click me</a>.</p>
+                        <a href="#contact" class="btn btn-cta mt-auto">CHECK MY AVAILABILITY &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-block" id="videography-block" style="scroll-margin-top: 110px;">
+                <div class="services-header">
+                    <h2>JONY FILMS:<br class="mobile-break"> VIDEOGRAPHY SERVICES</h2>
+                    <a href="portfolio.html#video" class="see-more">See More &rarr;</a>
+                </div>
+                
+                <div class="category-pills video-pills">
+                    <button class="pill active" data-target="video-weddings" aria-label="Show Video Weddings">Weddings & Engagements</button>
+                    <button class="pill" data-target="video-events" aria-label="Show Video Events">Events & Celebrations</button>
+                    <button class="pill" data-target="video-highlights" aria-label="Show Highlight Videos">Highlight Videos</button>
+                </div>
+                
+                <div id="video-weddings" class="split-section tab-content video-tab active">
+                    <div class="split-left video-container">
+                        <iframe src="https://www.youtube.com/embed/kp747JMa2Po?autoplay=0&mute=0&enablejsapi=1" class="media-fill" allowfullscreen title="Yusuf and Aminah Wedding Highlights"></iframe>
+                    </div>
+                    <div class="split-right flex-column">
+                        <p class="details-text">Relive the magic, the vows, and the music. I produce cinematic, high-end wedding films that capture the authentic energy and raw emotion of your celebration—turning your special day into a permanent, unforgettable movie.</p>
+                        <p class="inline-cta">Like what you see? You can watch more films, just <a href="portfolio.html#video" class="text-link">click me</a>.</p>
+                        <a href="#contact" class="btn btn-cta mt-auto">CHECK MY AVAILABILITY &rarr;</a>
+                    </div>
+                </div>
+                
+                <div id="video-events" class="split-section tab-content video-tab">
+                    <div class="split-left video-container">
+                        <div class="split-left video-container">
+                            <iframe src="https://www.youtube.com/embed/sVxsKVHKzc0?autoplay=0&mute=0&enablejsapi=1" title="Miss Universe Philippine Virginia 2024" class="media-fill" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="split-right flex-column">
+                        <p class="details-text">Relive the excitement of your event with a high-energy, professionally edited highlight film. Whether it's a party or an athletic competition, I capture the best moments, the speeches, and the raw crowd reactions, turning your celebration or sports game into a stunning, fast-paced visual recap.</p>
+                        <p class="inline-cta">Like what you see? You can watch more films, just <a href="portfolio.html#video" class="text-link">click me</a>.</p>
+                        <a href="#contact" class="btn btn-cta mt-auto">CHECK MY AVAILABILITY &rarr;</a>
+                    </div>
+                </div>
+                
+                <div id="video-highlights" class="split-section tab-content video-tab">
+                    <div class="split-left video-container">
+                        <iframe src="https://www.youtube.com/embed/9e9mrq0Ccy0?autoplay=0&mute=0&enablejsapi=1" title="Breanna Highlight Video" class="media-fill" allowfullscreen></iframe>
+                    </div>
+                    <div class="split-right flex-column">
+                        <p class="details-text">Every celebration has a rhythm, a soul, and a story. At Jony T Productions, I specialize in crafting cinematic highlight films that go far beyond basic documentation. I transform your most fleeting seconds into a timeless masterpiece you'll want to relive again and again.</p>
+                        <p class="inline-cta">Like what you see? You can watch more films, just <a href="portfolio.html#video" class="text-link">click me</a>.</p>
+                        <a href="#contact" class="btn btn-cta mt-auto">CHECK MY AVAILABILITY &rarr;</a>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-alt split-section align-center">
+        <div class="split-left text-center">
+            <img src="images/contacts.jpg" alt="Contact Jony T Productions for inquiries" class="portrait" style="object-fit: cover; border-radius: 8px; border: none;">
+        </div>
+        <div class="split-right flex-column">
+            <span class="section-label">CONTACT</span>
+            <h2>Inquiries & Bookings</h2>
+        <form id="contactForm" class="contact-form" style="position: relative;">
+            <input type="hidden" name="access_key" value="a8945e82-5413-4915-a742-4184a2bd5541">
+            <input type="checkbox" name="botcheck" style="display: none;" tabindex="-1" autocomplete="off" aria-label="Bot prevention checkbox">
+            
+            <input type="text" name="name" placeholder="NAME" required minlength="2" aria-label="Your Name">
+            <input type="email" name="email" placeholder="EMAIL" required aria-label="Your Email Address">
+            <input type="text" name="location" placeholder="LOCATION" required minlength="3" aria-label="Event Location">
+            <input type="text" name="date" placeholder="EVENT DATE" required aria-label="Event Date" onfocus="(this.type='date')" onblur="if(!this.value) this.type='text'" style="color-scheme: dark;">
+            
+            <textarea name="message" placeholder="MESSAGE" rows="5" required minlength="10" aria-label="Your Message or Inquiry Details"></textarea>
+            
+            <input type="hidden" name="subject" value="New Booking Inquiry from Jony T Productions">
+            <button type="submit" class="btn btn-cta submit-btn">SEND INQUIRY</button>
+            <div id="formResult" style="display: none; position: absolute; top: 100%; left: 0; right: 0; padding: 15px; margin-top: 15px; background: rgba(78, 168, 222, 0.08); border-left: 4px solid var(--toggle-blue); color: var(--text-primary); font-family: 'Manrope', sans-serif; text-align: left; box-sizing: border-box; z-index: 10;">
+                <strong id="resultTitle" style="color: var(--toggle-blue); letter-spacing: 1px;">MESSAGE SENT SUCCESSFULLY!</strong><br>
+                <span id="resultMessage" style="font-size: 0.9rem; opacity: 0.8;">Thank you for reaching out. I will get back to you shortly.</span>
+            </div>
+        </form>
+        </div>
+    </section>
+
+   <footer>
+        <div class="footer-col footer-left">
+            <img src="images/logo.png" alt="Jony T Productions" class="footer-logo">
+            <div class="footer-socials">
+                <a href="https://www.facebook.com/profile.php?id=100077981972971" target="_blank" aria-label="Visit Facebook Page" class="fb-icon">
+                    <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                </a>
+                <a href="https://www.youtube.com/@Maccoy1028" target="_blank" aria-label="Visit YouTube Channel" class="yt-icon">
+                    <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                </a>
+            </div>
+            <p class="footer-email">jonyt.productions@gmail.com</p>
+        </div>
+
+        <div class="footer-col footer-center">
+            <p class="brand-name">Jony T Productions</p>
+            <p>Videography & Photography</p>
+        </div>
+
+        <div class="footer-col footer-right">
+            <p>Virginia Beach, VA, United States.</p>
+            <p>&copy; 2026 Jony T Productions. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // GLOBAL MEDIA STOPPER
+        function pauseAllMedia(container) {
+            const root = container || document;
+            root.querySelectorAll('video').forEach(vid => vid.pause());
+            root.querySelectorAll('iframe').forEach(iframe => {
+                iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+            });
+        }
+
+        // HERO-ONLY MEDIA PLAYER
+        function playHeroMedia(slide) {
+            const localVid = slide.querySelector('video');
+            if (localVid) {
+                localVid.play().catch(err => console.log('Autoplay blocked:', err));
+            }
+            const iframeVid = slide.querySelector('iframe');
+            if (iframeVid) {
+                iframeVid.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+            }
+        }
+
+        // --- HERO SLIDER LOGIC ---
+        let currentSlide = 0;
+        let slideTimeout;
+        let isHeroHovered = false; 
+        
+        const slides = document.querySelectorAll('.media-slider-container .slide'); 
+        const dots = document.querySelectorAll('.hero-left .dot'); 
+        const heroSliderWrapper = document.querySelector('.hero-left .slider-wrapper');
+
+        heroSliderWrapper.addEventListener('mouseenter', () => {
+            isHeroHovered = true;
+            clearTimeout(slideTimeout);
+        });
+
+        heroSliderWrapper.addEventListener('mouseleave', () => {
+            isHeroHovered = false;
+            const nextDuration = parseInt(slides[currentSlide].getAttribute('data-duration')) || 4000;
+            slideTimeout = setTimeout(() => showSlide(currentSlide + 1), nextDuration);
+        });
+
+        function showSlide(index) {
+            clearTimeout(slideTimeout);
+            
+            slides[currentSlide].classList.remove('active');
+            dots[currentSlide].classList.remove('active');
+            
+            currentSlide = (index + slides.length) % slides.length;
+            
+            slides[currentSlide].classList.add('active');
+            dots[currentSlide].classList.add('active');
+            
+            playHeroMedia(slides[currentSlide]);
+
+            if (!isHeroHovered) {
+                const nextDuration = parseInt(slides[currentSlide].getAttribute('data-duration')) || 4000;
+                slideTimeout = setTimeout(() => showSlide(currentSlide + 1), nextDuration);
+            }
+        }
+
+        function changeSlide(direction) { showSlide(currentSlide + direction); }
+        function goToSlide(index) { showSlide(index); }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const firstDuration = parseInt(slides[0].getAttribute('data-duration')) || 4000;
+            playHeroMedia(slides[0]); 
+            slideTimeout = setTimeout(() => showSlide(1), firstDuration);
+
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('nav a');
+            const observerOptions = { root: null, rootMargin: '-30% 0px -60% 0px', threshold: 0 };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        navLinks.forEach(link => link.classList.remove('active'));
+                        const activeId = entry.target.getAttribute('id');
+                        const activeLink = document.querySelector(`nav a[href="#${activeId}"]`);
+                        if (activeLink) activeLink.classList.add('active');
+                    }
+                });
+            }, observerOptions);
+            sections.forEach(section => observer.observe(section));
+        });
+
+        // --- SERVICES TABS LOGIC ---
+        document.addEventListener('DOMContentLoaded', () => {
+            function setupTabs(pillSelector, tabSelector) {
+                const pills = document.querySelectorAll(pillSelector);
+                const tabs = document.querySelectorAll(tabSelector);
+                pills.forEach(pill => {
+                    pill.addEventListener('click', () => {
+                        pauseAllMedia(document.querySelector('#services')); 
+                        pills.forEach(p => p.classList.remove('active'));
+                        pill.classList.add('active');
+                        tabs.forEach(tab => tab.classList.remove('active'));
+                        const targetId = pill.getAttribute('data-target');
+                        document.getElementById(targetId).classList.add('active');
+                    });
+                });
+            }
+            setupTabs('.photo-pills .pill', '.photo-tab');
+            setupTabs('.video-pills .pill', '.video-tab');
+        });
+
+        // --- SERVICES SLIDER LOGIC ---
+        let serviceSlideTimer;
+        let isServiceHovered = false;
+
+        function startServiceTimer() {
+            clearInterval(serviceSlideTimer);
+            if(!isServiceHovered) {
+                serviceSlideTimer = setInterval(() => { changeServiceSlide(1); }, 3500); 
+            }
+        }
+
+        document.querySelectorAll('.service-slider-wrap').forEach(wrapper => {
+            wrapper.addEventListener('mouseenter', () => {
+                isServiceHovered = true;
+                clearInterval(serviceSlideTimer);
+            });
+            wrapper.addEventListener('mouseleave', () => {
+                isServiceHovered = false;
+                startServiceTimer();
+            });
+        });
+
+        function changeServiceSlide(direction) {
+            const activeTab = document.querySelector('.tab-content.photo-tab.active');
+            if (!activeTab) return;
+            const servicesSlides = activeTab.querySelectorAll('.service-slide');
+            const servicesDots = activeTab.querySelectorAll('.dot');
+            if (servicesSlides.length === 0) return;
+
+            let currentIndex = 0;
+            servicesSlides.forEach((slide, index) => { if (slide.classList.contains('active')) currentIndex = index; });
+
+            servicesSlides[currentIndex].classList.remove('active');
+            if (servicesDots.length > 0) servicesDots[currentIndex].classList.remove('active');
+
+            let nextIndex = (currentIndex + direction + servicesSlides.length) % servicesSlides.length;
+            servicesSlides[nextIndex].classList.add('active');
+            if (servicesDots.length > 0) servicesDots[nextIndex].classList.add('active');
+
+            startServiceTimer(); 
+        }
+
+        function goToServiceSlide(index) {
+            const activeTab = document.querySelector('.tab-content.photo-tab.active');
+            if (!activeTab) return;
+            const servicesSlides = activeTab.querySelectorAll('.service-slide');
+            const servicesDots = activeTab.querySelectorAll('.dot');
+            if (servicesSlides.length === 0) return;
+
+            let currentIndex = 0;
+            servicesSlides.forEach((slide, idx) => { if (slide.classList.contains('active')) currentIndex = idx; });
+
+            servicesSlides[currentIndex].classList.remove('active');
+            if (servicesDots.length > 0) servicesDots[currentIndex].classList.remove('active');
+            servicesSlides[index].classList.add('active');
+            if (servicesDots.length > 0) servicesDots[index].classList.add('active');
+
+            startServiceTimer(); 
+        }
+        startServiceTimer();
+        
+     // --- CONTACTS LOGIC ---
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault(); 
+        const form = this;
+        const result = document.getElementById('formResult');
+        const resultTitle = document.getElementById('resultTitle');
+        const resultMessage = document.getElementById('resultMessage');
+
+        if (form.elements['botcheck'].checked) {
+            console.log("Spambot caught and blocked.");
+            return;
+        }
+
+        const emailInput = form.querySelector('input[name="email"]').value.trim().toLowerCase();
+
+        const strictEmailRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
+        if (!strictEmailRegex.test(emailInput)) {
+            showFormError("INVALID EMAIL", "Please check your format (e.g., name@gmail.com).");
+            return;
+        }
+
+        if (emailInput.endsWith('.xyz') || emailInput.endsWith('.top') || emailInput.endsWith('.ru')) {
+            showFormError("SUBMISSION RESTRICTED", "This domain extension is barred due to high spam rates.");
+            return;
+        }
+
+        const btn = form.querySelector('button[type="submit"]');
+        const originalBtnText = btn.innerText;
+        btn.innerText = "SENDING...";
+        btn.style.opacity = "0.7";
+
+        const formData = new FormData(form);
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+
+        fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: json
+        })
+        .then(async (response) => {
+            let resData = await response.json();
+            if (response.status == 200) {
+                showFormSuccess();
+                form.reset();
+            } else {
+                showFormError("SUBMISSION ERROR", resData.message || "Please check details and retry.");
+            }
+        })
+        .catch(error => {
+            showFormError("NETWORK ERROR", "Unable to transmit message right now. Check connection.");
+        })
+        .finally(() => {
+            btn.innerText = originalBtnText;
+            btn.style.opacity = "1";
+            
+            setTimeout(() => {
+                result.style.display = "none";
+            }, 6000);
+        });
+
+        function showFormSuccess() {
+            result.style.borderLeftColor = "var(--toggle-blue)";
+            resultTitle.style.color = "var(--toggle-blue)";
+            resultTitle.innerText = "MESSAGE SENT SUCCESSFULLY!";
+            resultMessage.innerText = "Thank you for reaching out. I will get back to you shortly.";
+            result.style.display = "block";
+        }
+
+        function showFormError(title, msg) {
+            result.style.borderLeftColor = "var(--accent-cta)";
+            resultTitle.style.color = "var(--accent-cta)";
+            resultTitle.innerText = title;
+            resultMessage.innerText = msg;
+            result.style.display = "block";
+        }
+    });
+
+    // --- HAMBURGER MENU LOGIC ---
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active');
+        });
+
+    document.querySelectorAll('#nav-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        });
+    });
+    </script>
+</body>
+</html>
